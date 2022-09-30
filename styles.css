@@ -1,0 +1,25 @@
+body{
+    background-image: url('Images/fondo.jpg');
+}
+h1,h3{
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    position: relative;
+    top: 10vh;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width:400px;
+    position: relative;
+    top: 18vh;
+    left:30vw;
+}
